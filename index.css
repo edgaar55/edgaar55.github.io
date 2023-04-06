@@ -752,7 +752,7 @@ nav.nav-responsive ul li{
 }
 
 @media screen and (max-width: 700px){
-  .sobremi ,.fila{
+  .sobremi .fila{
 
     display: block;
   }
@@ -780,7 +780,7 @@ width: 100%;
 .curriculum .fila .col{
   width: 90%;
 }
-
+/*
 .portfolio .galeria{
   display: block;
   width: 100%;
@@ -792,7 +792,7 @@ width: 100%;
 .portfolio .galeria .proyecto{
   width: 100%;
 }
-
+*/
 .contacto .fila{
   display: block;
 }
