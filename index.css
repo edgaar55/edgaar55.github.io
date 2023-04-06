@@ -736,6 +736,67 @@ footer .redes a{
     right: 0;
     top: 75px;
     background-color: #1e2326;
+    width: 180px;
+  }
+
+  nav.responsive ul{
+    display: block;
   }
   
+
+nav.nav-responsive ul li{
+  border-bottom: 1px solid #fff;
+  padding: 10px 0;
+}
+
+}
+
+@media screen and (max-width: 700px){
+  .sobremi ,.fila{
+
+    display: block;
+  }
+.sobremi .fila .col{
+width: fit-content;
+
+}
+.skills .fila{
+  display: block;
+}
+.skill .fila .col{
+width: 100%;
+
+}
+
+.skills .fila .col .barra-skill{
+  width: 100%;
+}
+.curriculum .fila{
+  display: block;
+}
+.curriculum .fila .derecha{
+  margin-left: 20px;
+}
+.curriculum .fila .col{
+  width: 90%;
+}
+
+.portfolio .galeria{
+  display: block;
+  width: 100%;
+}
+.portfolio .galeria .proyecto{
+  max-width: 100%;
+}
+
+.portfolio .galeria .proyecto{
+  width: 100%;
+}
+
+.contacto .fila{
+  display: block;
+}
+.contacto.fila .col{
+  width: 100%;
+}
 }
